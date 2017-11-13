@@ -101,13 +101,13 @@ RETURN m
 
 Build a catalogue of Movie and Person.
 
-|Person | Relation | Movie |
- -------  --------- -------
-|Anna   | like     |Taxi|
-|John   | like     |Kungfu|
-|Anna   | Hate     |Kungfu|
+|Person | Relation | Movie   |
+|-------|----------|---------|
+|Anna   | like     |Taxi     |
+|John   | like     |Kungfu   |
+|Anna   | Hate     |Kungfu   |
 |Anna   | like     |Star Wars|
-|Jack   | like     |Kungfu|
+|Jack   | like     |Kungfu   |
 
 Find all person that like Kungfu.
 
