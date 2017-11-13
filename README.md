@@ -97,8 +97,29 @@ MATCH (n:Person{name :'Jack'}) -[:LIKE]-> (m:Movies)
 RETURN m
 ```
 
-## Try to create this relation
+## Your turn
 
-See image 
+Build a catalogue of Movie and Person.
+
+Anna like Taxi
+John like Kungfu
+Anna Hate Kungfu
+Anna like Star Wars
+Jack like Kungfu
+
+Find all person that like Kungfu.
+
+## Lets work with real movies
+
+type
+```
+:play movie-graph
+```
+
+See what we can do.
+
+
+
+
 
 
